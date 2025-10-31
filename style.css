@@ -1,0 +1,35 @@
+
+
+
+.hero {
+    background: url('image.jpg') center/cover no-repeat;
+    height: 70vh;
+}
+
+
+.main-btn {
+    background: #007bff;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.main-btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+
+.service-box {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+footer i {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
